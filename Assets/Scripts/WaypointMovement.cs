@@ -27,7 +27,7 @@ public class WaypointMovement : MonoBehaviour
             SetNextPoint();
     }
 
-    public Vector3 SetNextPoint()
+    private Vector3 SetNextPoint()
     {
         _nextPointIndex++;
 
